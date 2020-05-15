@@ -1,0 +1,401 @@
+body {
+  background-color: #f8f8f8;
+  color: #1d1d1d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+a {
+  color: #f8f8f8;
+}
+
+a:hover {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+/*navigation: start*/
+.bg-light {
+  background-color: #1d1d1d !important;
+  opacity: 0.95;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #f8f8f8;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#f8f8f8' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f8f8f8;
+  letter-spacing: 0.025rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #C0C0C0;
+}
+
+.nav-center {
+  text-align: center;
+}
+
+.active {
+  color: #C0C0C0 !important;
+}
+
+/*navigation: end*/
+/*alina-yildir: start*/
+#alina-yildir-welcome {
+  background-image: url('../img/home/alina-yildir-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.dot-pattern {
+  background-image: url('../img/home/dot-pattern.png');
+  background-repeat: repeat;
+  -webkit-background-size: 2px;
+  -moz-background-size: 2px;
+  -o-background-size: 2px;
+  -ms-background-size: 2px;
+  background-size: 2px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f8f8f8;
+  text-shadow: 1px 1px #1d1d1d;
+  font-family: 'Monsieur La Doulaise', cursive;
+  text-align: center;
+  font-size: 2rem;
+  word-spacing: 3px;
+}
+
+.look-around {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85rem;
+  word-spacing: 1.5px;
+  display: inline-block;
+  padding-top: 25px;
+}
+
+/*alina-yildir: end*/
+/*portfolio: start*/
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+
+.portfolio-gallery {
+  padding: 15px;
+}
+
+.portfolio-gallery .row>div {
+  padding: 2px;
+}
+
+.portfolio-gallery .portfolio-item img {
+  width: 100%;
+  position: relative;
+}
+
+.section-title {
+  letter-spacing: 0.02rem;
+  word-spacing: 3px;
+  margin-top: 85px;
+  margin-bottom: 55px;
+}
+
+.section-description {
+  font-size: 0.85rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio-item .wrapper {
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.mySlides {
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.icon-center {
+  margin: auto 0;
+}
+
+.prev {
+  cursor: pointer;
+  position: absolute;
+  margin: auto;
+  right: 0%;
+  opacity: 0.7;
+}
+
+.next {
+  cursor: pointer;
+  position: absolute;
+  left: 0%;
+  opacity: 0.7;
+}
+
+.prev:hover,
+.next:hover {
+  opacity: 1;
+}
+
+.numberText {
+  text-align: right;
+  font-size: 0.85rem;
+}
+
+.demoWedding {
+  filter: brightness(100%);
+}
+
+.active,
+.demoWedding:hover {
+  filter: brightness(70%);
+}
+
+.demoEngagement {
+  filter: brightness(100%);
+}
+
+.active,
+.demoEngagement:hover {
+  filter: brightness(70%);
+}
+
+.demoLifestyle {
+  filter: brightness(100%);
+}
+
+.active,
+.demoLifestyle:hover {
+  filter: brightness(70%);
+}
+
+.demoEvent {
+  filter: brightness(100%);
+}
+
+.active,
+.demoEvent:hover {
+  filter: brightness(70%);
+}
+
+.demoNature {
+  filter: brightness(100%);
+}
+
+.active,
+.demoNature:hover {
+  filter: brightness(70%);
+}
+
+.demoAboutMe {
+  filter: brightness(100%);
+}
+
+.active,
+.demoAboutMe:hover {
+  filter: brightness(70%);
+}
+
+.about-me {
+  margin: auto 0;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.contact-me-e-mail a {
+  color: #1d1d1d;
+  font-weight: 400;
+}
+
+.contact-me-e-mail a:hover {
+  color: #696969;
+}
+
+.contact-me-phone {
+  color: #1d1d1d;
+  font-weight: 400;
+}
+
+/*portfolio: end*/
+/*footer: start*/
+footer {
+  color: #f8f8f8;
+}
+
+footer .footer-above {
+  padding: 20px 0 0 0;
+  background-color: #1d1d1d;
+  font-size: 0.85rem;
+  letter-spacing: 0.05rem;
+  margin-top: 65px;
+  margin-bottom: 1px;
+}
+
+footer .footer-below {
+  padding: 20px 0;
+  background-color: #1d1d1d;
+  font-size: 0.75rem;
+  letter-spacing: 0.025rem;
+}
+
+/*footer: end*/
+/*.col-sm- (small devices - screen width equal to or greater than 576px)*/
+@media only screen and (min-width: 576px) {
+  h1 {
+    font-size: 1.15rem;
+  }
+
+  .welcome {
+    font-size: 2.5rem;
+    word-spacing: 4px;
+  }
+
+  .look-around {
+    font-size: 1rem;
+    word-spacing: 1.5px;
+    padding-top: 30px;
+  }
+
+  .section-description {
+    font-size: 0.95rem;
+  }
+
+  .numberText,
+  .about-me {
+    font-size: 0.95rem;
+  }
+}
+
+/*.col-md- (medium devices - screen width equal to or greater than 768px)*/
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 1.15rem;
+  }
+
+  .welcome {
+    font-size: 3rem;
+    word-spacing: 5px;
+  }
+
+  .look-around {
+    font-size: 1.15rem;
+    word-spacing: 1.5px;
+    padding-top: 35px;
+  }
+
+  .section-description {
+    font-size: 1.05rem;
+  }
+
+  .numberText,
+  .about-me {
+    font-size: 1.05rem;
+  }
+}
+
+/*.col-lg- (large devices - screen width equal to or greater than 992px)*/
+@media only screen and (min-width: 992px) {
+  .navbar-brand {
+    margin-right: 2.5rem;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  .welcome {
+    font-size: 4rem;
+    word-spacing: 5px;
+  }
+
+  .look-around {
+    font-size: 1.3rem;
+    word-spacing: 2px;
+    padding-top: 45px;
+  }
+
+  .section-description {
+    font-size: 1.15rem;
+  }
+
+  .numberText,
+  .about-me {
+    font-size: 1.15rem;
+  }
+}
+
+/*.col-xl- (xlarge devices - screen width equal to or greater than 1200px)*/
+@media only screen and (min-width: 1200px) {
+  .navbar-brand {
+    margin-right: 7rem;
+  }
+
+  h1 {
+    font-size: 1.35rem;
+  }
+
+  .welcome {
+    font-size: 5rem;
+    word-spacing: 5px;
+  }
+
+  .look-around {
+    font-size: 1.6rem;
+    word-spacing: 2px;
+    padding-top: 50px;
+  }
+
+  .section-description {
+    font-size: 1.25rem;
+  }
+
+  .numberText,
+  .about-me {
+    font-size: 1.25rem;
+  }
+}
